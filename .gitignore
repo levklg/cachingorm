@@ -12,6 +12,7 @@
 
 # Package Files #
 *.jar
+!gradle-wrapper.jar
 *.war
 *.nar
 *.ear
@@ -21,3 +22,27 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# Ignore Gradle project-specific cache directory
+
+/buildSrc/.gradle/
+.idea/
+.gradle/
+buildSrc/.gradle/
+buildSrc/build
+build/build
+buildSrc/.gradle
+homework/.gradle
+homework/build
+
+# Ignore Gradle build output directory
+build
+out
+.idea/
+.gradle/
+
+#Idea
+*.iml
+*.iws
+*.ipr
+*.idea
